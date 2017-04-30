@@ -1,0 +1,29 @@
+{
+    "name": "timedatatransfer",
+    "version": "1.0.0",
+    "description": "Tool to move data between tick and quicbasse",
+    "main": "app.js",
+    "scripts": {
+        "info": "echo 'npm as a build tool'",
+        "lint": "echo '=> linting' && jshint src/assets/scripts/app.js",
+        "clean": "rd /s /Q dist",
+        "createDist": "md dist\assets\fonts dist\assets\images dist\assets\images dist\assets\scripts dist\assets\styles"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bernardw01/TimeDataTransfer.git"
+    },
+    "author": "Bernard Williams",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/bernardw01/TimeDataTransfer/issues"
+    },
+    "homepage": "https://github.com/bernardw01/TimeDataTransfer#readme",
+    "devDependencies": {
+        "bootstrap": "^3.3.7",
+        "font-awesome": "^4.7.0",
+        "jshint": "^2.9.4",
+        "uglify-js": "^2.8.22",
+        "webpack": "^2.4.1"
+    }
+}
