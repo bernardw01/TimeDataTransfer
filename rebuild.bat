@@ -1,2 +1,6 @@
-rd /s /Q dist
-md dist\assets\fonts dist\assets\images dist\assets\scripts dist\assets\styles
+cd "C:\Users\Bernard Williams\Google Drive\src_code\work\TimeDataTransfer\"
+rd /s /Q "dist"
+MD "dist\assets\fonts"
+MD "dist\assets\images" 
+MD "dist\assets\scripts" 
+MD "dist\assets\styles"
